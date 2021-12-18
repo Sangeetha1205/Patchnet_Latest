@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.alertify .ajs-modal {
+  z-index: 999999 !important;
+}
+.alertify .ajs-dialog {
+  top: 40px;
+  font: 14px/20px BlissLight, Arial;
+}
+.alertify .ajs-header {
+  background-color: #313e47 !important;
+  color: #fff;
+}
+.alertify-notifier.ajs-top {
+  top: 80px !important;
+}
+.ajs-button {
+  background: #0078d4;
+  border-color: #0078d4;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  margin: 0 10px 15px !important;
+  font: 15px "BlissPro-Bold", Arial;
+  width: 110px;
+  outline: none;
+}
+.ajs-button:hover {
+  background: #0078d4;
+  border-color: #0078d4;
+}
+.ajs-button.ajs-cancel {
+  background: #53545e;
+  border-color: #53545e;
+}
+.ajs-button.ajs-cancel:hover {
+  background: #53545e;
+  border-color: #53545e;
+}
+.alertify .ajs-commands button.ajs-close {
+  margin-top: 7px;
+}
+.alertify-notifier .ajs-message.ajs-error {
+  background-color: #0078d4;
+  color: #fff;
+  margin-top: 10px;
+  white-space: break-spaces !important;
+}
+.alertify-notifier .ajs-message.ajs-success {
+  background-color: #0078d4;
+  color: #fff;
+  margin-top: 10px;
+  white-space: nowrap;
+}
+.alertify .ajs-body .ajs-content {
+  padding: 16px 0;
+}
+.alertify-notifier .ajs-message {
+  width: 300px !important;
+}
+
+.Patch-Modal .ms-Dialog-main {
+  width: 500px;
+}
+.PatchModalBody {
+  margin: 30px 20px 30px 20px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+.Modal-footer-btn-section {
+  text-align: right;
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.Modal-footer-btn-section .ms-Button--primary {
+  margin-left: 8px;
+  font-family: "Poppins", sans-serif;
+}
+.header-btn {
+  text-align: right;
+}
+.warning-content {
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.clone-btn-sec {
+  text-align: right;
+  margin: 60px 20px 20px;
+}
+/* .PatchModalBody::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background: url(./Process.png);
+  background-size: contain;
+  background-position: center;
+  right: 50%;
+  top: -60px;
+} */
